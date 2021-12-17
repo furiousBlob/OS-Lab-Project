@@ -29,6 +29,14 @@ img{
     text-decoration: none;
     margin: 15px;
 }
+.main-nav>input{
+    border: 1px solid #999;
+	background: #e4dede;
+	padding: 10px;
+	box-shadow:0 1px 2px #ddd;
+    -moz-box-shadow:0 1px 2px #ddd;
+    -webkit-box-shadow:0 1px 2px #ddd;
+}
 .footer{
     background-color: honeydew;
     position: fixed;
