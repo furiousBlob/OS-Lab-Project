@@ -8,9 +8,8 @@ html,body,head{
     src: url(MTCORSVA.woff);
 }
 
-#header{
+.header{
     font-family:myFirstFont;
-    font-weight: bold;
     font-size: 25px;
 }
 .header{
@@ -27,8 +26,6 @@ img{
     margin-bottom: 2px;
 }
 .main-nav>a{
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     margin: 15px;
 }
