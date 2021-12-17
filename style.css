@@ -1,4 +1,45 @@
 html,body,head{
-    width=100%;
-  
+    margin:none;
+    padding:none;
+    background-color: rgba(204, 226, 233, 0.644);
+}
+@font-face{
+    font-family: myFirstFont;
+    src: url(MTCORSVA.woff);
+}
+
+#header{
+    font-family:myFirstFont;
+    font-weight: bold;
+    font-size: 25px;
+}
+.header{
+    margin: 4px;
+}
+img{
+    width: 120px;
+    height: 100px;
+    display: inline-flex;
+}
+.main-nav{
+    display: inline-block;
+    margin-left: 1000px;
+    margin-bottom: 2px;
+}
+.main-nav>a{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    margin: 15px;
+}
+.footer{
+    background-color: honeydew;
+    position: fixed;
+	bottom: 3px;
+	width:100%;
+	height: 42px;
+    padding-left: 30px;
+    margin-left: 1px;
+    margin-right: 5px;
+    border: 1px solid rgb(199, 176, 176);
 }
