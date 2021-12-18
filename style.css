@@ -1,0 +1,50 @@
+html,body,head{
+    margin:none;
+    padding:none;
+    background-color: rgba(204, 226, 233, 0.644);
+}
+@font-face{
+    font-family: myFirstFont;
+    src: url(MTCORSVA.woff);
+}
+
+.header{
+    font-family:myFirstFont;
+    font-size: 25px;
+}
+.header{
+    margin: 4px;
+}
+img{
+    width: 120px;
+    height: 100px;
+    display: inline-flex;
+}
+.main-nav{
+    display: inline-block;
+    margin-left: 1000px;
+    margin-bottom: 2px;
+}
+.main-nav>a{
+    text-decoration: none;
+    margin: 15px;
+}
+.main-nav>input{
+    border: 1px solid #999;
+	background: #e4dede;
+	padding: 10px;
+	box-shadow:0 1px 2px #ddd;
+    -moz-box-shadow:0 1px 2px #ddd;
+    -webkit-box-shadow:0 1px 2px #ddd;
+}
+.footer{
+    background-color: honeydew;
+    position: fixed;
+	bottom: 3px;
+	width:100%;
+	height: 42px;
+    padding-left: 30px;
+    margin-left: 1px;
+    margin-right: 5px;
+    border: 1px solid rgb(199, 176, 176);
+}
