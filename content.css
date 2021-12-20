@@ -1,85 +1,163 @@
-.{
-    margin: 0%;
-    padding: 0%;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.main{
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(backgr.png);
-    background-size: cover;
-    background-position: center;
+.main {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(backgr.png);
+  background-size: cover;
+  background-position: center;
 }
 
-.navbar{
-    width: 85%;
-    margin: auto;
-    padding: 35 px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.navbar ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 0 5px;
+.logo {
+  width: 150px;
+  cursor: pointer;
+}
+.menu {
+  width: 400px;
+  float: left;
+  padding-left: 10%;
+  height: 70px;
+}
+ul {
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
 }
 
-.navbar ul li img{
-    height: 25px;
-    width: 25px;
+ul li {
+  list-style: none;
+  margin-left: 30px;
+  margin-top: 23px;
+  font-size: 18px;
 }
 
-.logo{
-    width: 120%;
-    cursor: pointer;
+.cart {
+  height: 25px;
+  width: 25px;
 }
 
-.menu ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    position: relative;
+ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+  width: auto;
 }
 
-.menu ul li a{
-    text-decoration: none;
+ul li a:hover {
+  color: rgb(128, 42, 31);
+}
+
+.content {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: white;
+  position: relative;
+  align-items: baseline;
+}
+
+.content p {
+  padding-left: 20px;
+  line-height: 30px;
+  padding-bottom: 25px;
+  letter-spacing: 1.2px;
+  font-family: Arial;
+}
+
+.content h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 10%;
+  letter-spacing: 2px;
+}
+
+.content {
+  width: 1200px;
+  height: auto;
+  margin: 80px;
+  color: white;
+  position: relative;
+}
+
+.content .par {
+  padding-left: 20px;
+  padding-bottom: 25px;
+  padding-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+}
+
+.btn {
+  width: 200px;
+  padding: 15px;
+  text-align: center;
+  margin-left: 35px;
+  font-size: 16px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 5px solid rgb(128, 42, 31);
+  background: transparent;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(128, 42, 31);
+  transition: 0.4s ease-out;
+}
+
+.Schedule {
+  width: 200px;
+  padding: 15px;
+  text-align: center;
+  margin-left: 1400px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-top: 200px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 5px solid darkslategrey;
+  background: transparent;
+  cursor: pointer;
+}
+
+.Schedule:hover {
+  color: mediumslateblue;
+}
+
+.Started {
+    background: transparent;
+    margin-left: 20px;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
     color:white;
-    text-transform: capitalize;
-    font-family: Arial;
+    padding: 15px;
     font-weight: bold;
-    transition: 0.4s ease-in-out;
-
+    border:5px solid darkslategrey;
 }
 
-.menu ul li a:hover{
-    color: turquoise;
-}
-
-.content{
-    width: 1200px;
-    height:auto;
-    margin:auto;
-    color: white;
-    position: relative;
-    align-items:baseline;
-}
-
-
-.content p{
-    padding-left: 20px;
-    line-height: 30px;
-    padding-bottom: 25px;
-    letter-spacing: 1.2px;
-    font-family: Arial;
-}
-
-.content h1{
-    font-family: Arial;
-    font-size: 50px;
-    padding-left: 20px;
-    margin-top: 9%;
-    letter-spacing: 2px;
-    position:relative;
+.Started:hover {
+  color: mediumslateblue;
 }
