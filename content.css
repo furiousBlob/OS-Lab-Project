@@ -20,6 +20,17 @@
     justify-content: space-between;
 }
 
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.navbar ul li img{
+    height: 25px;
+    width: 25px;
+}
+
 .logo{
     width: 120%;
     cursor: pointer;
@@ -36,21 +47,14 @@
     text-decoration: none;
     color:white;
     text-transform: capitalize;
-}
-
-.menu ul li::after{
-    content: '';
-    height: 3px;
-    width: 0;
-    background:turquoise;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
+    font-family: Arial;
+    font-weight: bold;
     transition: 0.4s ease-in-out;
+
 }
 
-.menu ul li:hover::after{
-    width: 68;
+.menu ul li a:hover{
+    color: turquoise;
 }
 
 .content{
